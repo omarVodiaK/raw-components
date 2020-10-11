@@ -7,7 +7,7 @@
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
-    "raw-components": "file:raw-components-0.0.1.tgz",
+    "raw-components": "0.0.1",
     "@angular/core": ">=8.2.7",
     "@angular/forms": ">=8.2.7",
     "@angular/router": ">=8.2.7",

@@ -29,7 +29,7 @@
 		"typescript": "^3.3.4000"
 	},
 	"dependencies": {
-		"raw-components": "file:raw-components-0.0.1.tgz"
+		"raw-components": "0.0.1"
 	},
 	"peerDependencies": {
 		"react": "^16.7.0",

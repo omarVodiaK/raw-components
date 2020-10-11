@@ -1,7 +1,6 @@
 {
-	"name": "raw",
-	"version": "0.0.1",
-	"private": true,
+	"name": "raw-componenets",
+	"version": "0.0.2",
 	"scripts": {
 		"bootstrap": "lerna bootstrap",
 		"build": "lerna run build",
