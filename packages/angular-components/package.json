@@ -1,6 +1,6 @@
 {
 	"name": "raw-angular-components",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Angular specific wrapper for raw-component",
 	"license": "MIT",
 	"scripts": {
@@ -27,9 +27,9 @@
 		"@angular/core": ">=8.2.7",
 		"@angular/forms": ">=8.2.7",
 		"@angular/router": ">=8.2.7",
+		"raw-components": "latest",
 		"rxjs": ">=6.2.0",
-		"zone.js": ">=0.8.26",
-		"raw-components": "latest"
+		"zone.js": ">=0.8.26"
 	},
 	"devDependencies": {
 		"@angular-devkit/core": "8.3.17",
