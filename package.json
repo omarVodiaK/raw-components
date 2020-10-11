@@ -1,0 +1,15 @@
+{
+	"name": "raw",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"bootstrap": "lerna bootstrap",
+		"build": "lerna run build",
+		"test": "lerna run test",
+		"changelog": "lerna-changelog",
+		"publish": "lerna publish"
+	},
+	"devDependencies": {
+		"lerna": "^3.22.1"
+	}
+}

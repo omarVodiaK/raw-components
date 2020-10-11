@@ -1,0 +1,8 @@
+{
+	"packages": [
+		"packages/raw-components",
+		"packages/angular-components",
+		"packages/react-components"
+	],
+	"version": "0.0.0"
+}
