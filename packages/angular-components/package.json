@@ -1,6 +1,6 @@
 {
 	"name": "angular-components",
-	"version": "0.0.0",
+	"version": "0.0.3",
 	"description": "Angular specific wrapper for raw-component",
 	"license": "MIT",
 	"scripts": {
@@ -24,10 +24,10 @@
 		"tslib": "^1.9.3"
 	},
 	"peerDependencies": {
-		"raw-components": "0.0.1",
 		"@angular/core": ">=8.2.7",
 		"@angular/forms": ">=8.2.7",
 		"@angular/router": ">=8.2.7",
+		"raw-components": "0.0.1",
 		"rxjs": ">=6.2.0",
 		"zone.js": ">=0.8.26"
 	},
