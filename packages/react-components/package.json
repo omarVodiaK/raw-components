@@ -1,5 +1,5 @@
 {
-	"name": "react-components",
+	"name": "raw-react-components",
 	"sideEffects": false,
 	"version": "0.0.3",
 	"description": "React specific wrapper for raw-components",
@@ -29,7 +29,7 @@
 		"typescript": "^3.3.4000"
 	},
 	"dependencies": {
-		"raw-components": "^0.0.3"
+		"raw-components": "latest"
 	},
 	"peerDependencies": {
 		"react": "^16.7.0",
@@ -42,5 +42,6 @@
 			"node_modules",
 			"dist"
 		]
-	}
+	},
+	"gitHead": "77c1a3c6918e83f5d663421598caf854587c63ad"
 }

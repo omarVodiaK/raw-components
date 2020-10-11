@@ -1,5 +1,5 @@
 {
-	"name": "angular-components",
+	"name": "raw-angular-components",
 	"version": "0.0.3",
 	"description": "Angular specific wrapper for raw-component",
 	"license": "MIT",
@@ -27,9 +27,9 @@
 		"@angular/core": ">=8.2.7",
 		"@angular/forms": ">=8.2.7",
 		"@angular/router": ">=8.2.7",
-		"raw-components": "0.0.1",
 		"rxjs": ">=6.2.0",
-		"zone.js": ">=0.8.26"
+		"zone.js": ">=0.8.26",
+		"raw-components": "latest"
 	},
 	"devDependencies": {
 		"@angular-devkit/core": "8.3.17",
@@ -70,5 +70,6 @@
 	"fesm2015": "dist/fesm2015/angular-components.js",
 	"typings": "dist/angular-components.d.ts",
 	"metadata": "dist/angular-components.metadata.json",
-	"sideEffects": false
+	"sideEffects": false,
+	"gitHead": "77c1a3c6918e83f5d663421598caf854587c63ad"
 }

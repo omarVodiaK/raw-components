@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/forms'), require('rxjs'), require('raw-components/loader')) :
-    typeof define === 'function' && define.amd ? define('angular-components', ['exports', '@angular/core', '@angular/forms', 'rxjs', 'raw-components/loader'], factory) :
-    (global = global || self, factory(global['angular-components'] = {}, global.ng.core, global.ng.forms, global.rxjs, global.loader));
+    typeof define === 'function' && define.amd ? define('raw-angular-components', ['exports', '@angular/core', '@angular/forms', 'rxjs', 'raw-components/loader'], factory) :
+    (global = global || self, factory(global['raw-angular-components'] = {}, global.ng.core, global.ng.forms, global.rxjs, global.loader));
 }(this, (function (exports, core, forms, rxjs, loader) { 'use strict';
 
     /*! *****************************************************************************
@@ -501,4 +501,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=angular-components.umd.js.map
+//# sourceMappingURL=raw-angular-components.umd.js.map

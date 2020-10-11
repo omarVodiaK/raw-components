@@ -1,30 +1,31 @@
 {
-  "name": "angular-components",
-  "version": "0.0.0",
+  "name": "raw-angular-components",
+  "version": "0.0.3",
   "description": "Angular specific wrapper for raw-component",
   "license": "MIT",
   "dependencies": {
     "tslib": "^1.9.3"
   },
   "peerDependencies": {
-    "raw-components": "0.0.1",
     "@angular/core": ">=8.2.7",
     "@angular/forms": ">=8.2.7",
     "@angular/router": ">=8.2.7",
     "rxjs": ">=6.2.0",
-    "zone.js": ">=0.8.26"
+    "zone.js": ">=0.8.26",
+    "raw-components": "latest"
   },
   "whitelistedNonPeerDependencies": [
     "raw-components"
   ],
-  "main": "bundles/angular-components.umd.js",
-  "module": "fesm5/angular-components.js",
-  "es2015": "fesm2015/angular-components.js",
-  "esm5": "esm5/angular-components.js",
-  "esm2015": "esm2015/angular-components.js",
-  "fesm5": "fesm5/angular-components.js",
-  "fesm2015": "fesm2015/angular-components.js",
-  "typings": "angular-components.d.ts",
-  "metadata": "angular-components.metadata.json",
-  "sideEffects": false
+  "main": "bundles/raw-angular-components.umd.js",
+  "module": "fesm5/raw-angular-components.js",
+  "es2015": "fesm2015/raw-angular-components.js",
+  "esm5": "esm5/raw-angular-components.js",
+  "esm2015": "esm2015/raw-angular-components.js",
+  "fesm5": "fesm5/raw-angular-components.js",
+  "fesm2015": "fesm2015/raw-angular-components.js",
+  "typings": "raw-angular-components.d.ts",
+  "metadata": "raw-angular-components.metadata.json",
+  "sideEffects": false,
+  "gitHead": "77c1a3c6918e83f5d663421598caf854587c63ad"
 }

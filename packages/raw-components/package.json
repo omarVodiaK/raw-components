@@ -30,5 +30,6 @@
   },
   "dependencies": {
     "@sebgroup/bootstrap": "^5.3.1"
-  }
+  },
+  "gitHead": "77c1a3c6918e83f5d663421598caf854587c63ad"
 }
